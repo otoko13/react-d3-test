@@ -1,0 +1,23 @@
+#AnimatedChart {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 200px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#AnimatedChart #bars{
+    position: relative;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#AnimatedChart #bars .bar {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    background: #4c8d79;
+    border: 1px solid #4a4a4a;
+}

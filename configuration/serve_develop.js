@@ -9,4 +9,4 @@ const outputPath = path.join(__dirname, '..', '.tmp');
 logger.debug(`Path to serve: ${outputPath}`);
 
 app.use(express.static(outputPath));
-app.listen(3001);
+app.listen(3004);
