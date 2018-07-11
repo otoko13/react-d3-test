@@ -5,6 +5,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import 'fontawesome';
 import './index.css';
-import GrignotteGame from "./game/GrignotteGame";
+import ReactD3Canvas from "./components/canvas/ReactD3Canvas";
 
-ReactDOM.render(<GrignotteGame />, document.getElementById('root'));
+ReactDOM.render(<ReactD3Canvas />, document.getElementById('root'));

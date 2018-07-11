@@ -1,0 +1,8 @@
+.ReactD3Canvas {
+    width: 90vw;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    overflow: hidden;
+    color: #4a4a4a;
+}
